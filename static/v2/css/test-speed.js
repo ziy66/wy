@@ -94,7 +94,7 @@ $(function(){
     			me.saveResult(name, host, beforeTime, fn, res, 'error');
     		};
 
-    		img.src = 'http://' + host + '/favicon.ico?time=' + new Date().getTime();
+    		img.src = '//' + host + '/favicon.ico?time=' + new Date().getTime();
 
     		//超时处理
     		setTimeout(function(){

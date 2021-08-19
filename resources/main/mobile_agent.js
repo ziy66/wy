@@ -1,7 +1,7 @@
 var userlevel=null;
 var userlevelbai = 0;//安全等级
 var levelstr     = '您的账户安全级别为低，请完善安全信息';
-var host = 'http://' + window.location.host;
+var host = '//' + window.location.host;
 var mobileapirooturl = host + '/Apijiekou.';
 $(function(){
 	getuserlevel();
