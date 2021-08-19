@@ -4,7 +4,7 @@ require.config({
 		name: "moment",
 		location: "https://cdn.staticfile.org/moment.js/2.29.0/",
 		main: "moment"
-	}],
+	}], 
 	include: ["css", "layer", "toastr", "fast", "frontend", "frontend-init", "table", "form", "dragsort", "drag", "drop", "selectpage"],
 	paths: {
 		lang: "empty:",
