@@ -37,7 +37,7 @@
 
 function redirectToHost(){
             	 var host = location.host;
-                 location.href = "http://" + host;
+                 location.href = "//" + host;
          }
 
 

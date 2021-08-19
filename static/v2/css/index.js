@@ -1111,7 +1111,7 @@
 	        	    alert(aStrCode);
 	        	    var _localtionName = window.location.host == undefined ? '/aspx/ssc/index.aspx' : window.location.host;
 	        	    setTimeout(function () {
-	        	        window.location.href = "http://" + _localtionName + "/aspx/ssc/login.aspx";
+	        	        window.location.href = "//" + _localtionName + "/aspx/ssc/login.aspx";
 	        	    },2000)
 	        	    //window.open("forgetPaw7.html", "_self");
 	        	} else {
