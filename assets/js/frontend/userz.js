@@ -488,7 +488,7 @@ define(['jquery', 'bootstrap', 'frontend', 'form', 'template'], function ($, und
                         var latestCodes = kjlogs[0].code.split(",");
                         var latestCodeHtml = '';
                         latestCodes.forEach(function (code, index) {
-                            latestCodeHtml += '<span class="num num' + code + '">code</span>&nbsp;';
+                            latestCodeHtml += '<span class="num num' + code + '">' + code + '</span>&nbsp;';
                         });
                         $('#latest-date').html(latestDate);
                         $('#latest-num').html(latestCodeHtml);
@@ -534,7 +534,7 @@ define(['jquery', 'bootstrap', 'frontend', 'form', 'template'], function ($, und
                             var latestCodes = kjlogs[0].code.split(",");
                             var latestCodeHtml = '';
                             latestCodes.forEach(function (code, index) {
-                                latestCodeHtml += '<span class="num num' + code + '">code</span>&nbsp;'; 
+                                latestCodeHtml += '<span class="num num' + code + '">' + code + '</span>&nbsp;'; 
                             });
                             $('#latest-date').html(latestDate);
                             $('#latest-num').html(latestCodeHtml);
