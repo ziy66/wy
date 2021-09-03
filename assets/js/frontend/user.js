@@ -543,7 +543,7 @@ define(['jquery', 'bootstrap', 'frontend', 'form', 'template'], function ($, und
                             var codes = data.code.split(",");
                             var numHtml = "";
                             codes.forEach(function (code, index) {
-                                numHtml += '<span class="num num' + code + '"></span>&nbsp;';
+                                numHtml += '<span class="num num' + code + '">' + code + '</span>&nbsp;';
                             });
                             html += '<tr data-issue="' + data.issue + '"><td class="text-center">' + data.issue + '期<div class="numberbox" style="margin-top: 15px;">' + numHtml + '</div></td></tr>';
                         });
